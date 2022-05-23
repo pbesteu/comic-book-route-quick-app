@@ -142,7 +142,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/poi-quick-app/tree/main/docs/sample/"
+                                        "https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/bxl/"
                                     ]
                                 },
                                 "text_info": {
@@ -184,7 +184,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+                                        "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
                                     ]
                                 }                                
                             }
@@ -224,9 +224,7 @@
                                             "pattern": "^(\\+|-)?(?:90(?:(?:\\.0{1,20})?)|(?:[0-9]|[1-8][0-9])(?:(?:\\.[0-9]{1,20})?))$"
                                           },
                                           { 
-                                            "type": "number",
-                                            "minimum": -90,
-                                            "maximum": 90
+                                            "type": "number"
                                           }
                                         ],
                                         "examples": [
@@ -242,9 +240,7 @@
                                             "pattern": "^(\\+|-)?(?:180(?:(?:\\.0{1,20})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\\.[0-9]{1,20})?))$"
                                           },
                                           { 
-                                            "type": "number",
-                                            "minimum": -180,
-                                            "maximum": 180                                            
+                                            "type": "number"
                                           }
                                         ],
                                         "examples": [

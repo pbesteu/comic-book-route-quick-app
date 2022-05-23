@@ -12,14 +12,14 @@ Currently, we have the following proofs of concept:
 
 Some screenshots:
 
-<img src="https://pbest.eu/cultural-heritage-quick-app/be/leuven/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
+<img src="./be/leuven/images/screenshots.png" alt="Screenshots of the Leuven application" width="100%">
 
 ## Start a new project for your town
 
 If you want to start a new project, you only need to:
 
-- configure the [quick app](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) of this repository, and
-- configure the sample [database and documentation](https://github.com/pbesteu/poi-quick-app/tree/main/docs/sample) that feeds the quick app.
+- configure the [quick app](https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/quick-app) of this repository, and
+- configure the sample [database and documentation](https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/sample) that feeds the quick app.
 
 ## License
 
@@ -33,15 +33,14 @@ These apps are based on open data and automatic processing of the data. The comm
 
 The app doesn't collect any personal data, so relax. We won't sell anything.
 
-The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/pbesteu/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
 
 ## Developers
 
 > Do you want to contribute to the code?
 
-Just fork the repository and start sending your contributions. The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. 
+Just fork the repository and start sending your contributions. The code of the quick app is in the [`/quick-app`](../quick-app) folder of the repository. 
 
-Feel free to [raise issues](https://github.com/pbesteu/poi-quick-app/issues/new) on the code.
+Feel free to [raise issues](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new) on the code.
 
 
 ## Acknowledgments
