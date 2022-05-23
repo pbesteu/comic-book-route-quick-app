@@ -1,4 +1,4 @@
-# Quick App Sample: Local Street Art
+# Quick App Sample: Brussels Comic Route
 
 This quick app is an open-source project, powered by open data and enriched by the community.
 

@@ -1,6 +1,6 @@
 {
-    "package": "org.example.myquickapp",
-    "name": "City Street Heritage",
+    "package": "es.espinr.comics",
+    "name": "BXL Comic Book Route",
     "versionName": "0.1",
     "versionCode": 1,
     "minPlatformVersion": 1078,
