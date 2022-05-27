@@ -1,8 +1,8 @@
 {
     "meta": {
         "app_title": "BXL Comic Book Route",
-        "version": 1,
-        "updated": "2022-05-12",
+        "version": 2,
+        "updated": "2022-05-27",
         "source_url": "https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": ""
@@ -15,8 +15,8 @@
                     "complementary": "#513B3E"
                 },
                 "repository_url": "https://github.com/pbesteu/comic-book-route-quick-app/",
-                "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
-                "text_acknowledge": "This quick app is an open-source project powered by Brussels Open Data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
+                "text_info": "This app is created by locals and experts with no commercial objectives. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
+                "text_acknowledge": "This quick app is an open-source project powered by Brussels Open Data and Wikidata and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
                 "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
                 "feedback_url": "https://pbesteu.github.io/comic-book-route-quick-app/bxl/#get-involved",
                 "issue_url": "https://github.com/pbesteu/comic-book-route-quick-app/issues/new?template=update_request.md&title=Update+Request"
