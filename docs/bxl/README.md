@@ -1,31 +1,30 @@
-# Local Cultural Heritage Quick App - Your City
+# Brussels Comic Book Route - Quick App
 
-__Change this text according to your needs__
+This project is based on the [City of Brussels Open Data](https://opendata.brussels.be/page/home/) initiative. It uses the data from the official dataset, this doesn´t mean that it´s an official project.
 
-The Local Cultural Heritage Quick App promotes cultural heritage collections in small and medium cities through open data and crowdsourcing. 
+> It's free, open-source and collaborative.
 
-> It's free, open-source and collaborative 
+<img src="https://pbest.eu/comic-book-route/bxl/images/screenshots.gif" alt="Screenshots of the application">
+
 
 ## Privacy
 
-These apps are based on open data and automatic processing of the data. The community's content is enriched and curated, so it's available to anyone who wants to get involved. Local experts are welcome to refine the definitions, names, and pictures and add new points of interest to the app.
+The main data was collected using the public dataset of the open data initiative and automatic processing of the data. The content was enriched with [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) information and curated using the developer´s intuition, so it could contain errors and inaccuracies (apologies in advance). Local experts are welcome to refine the definitions, names, and pictures and add new points of interest to the app.
 
-The app doesn't collect any personal data, so relax. We won't sell anything.
+The app doesn't collect any personal data, so relax. There are calls to an analytics system, just to check if the app is used or not, but the app only send randomly generated information to avoid personal identification.
 
-Perhaps the content is inaccurate, so please [let us know](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new) if you've spotted anything that might be enhanced. 
+Perhaps the content is inaccurate, so please [let us know](https://github.com/pbesteu/comic-book-route-quick-app/issues/new) if you've spotted anything that might be enhanced.
 
 ## Get involved
 
 > Do you want to contribute to the content?
 
-The content for each application instance (one per city/town) is stored in a particular directory in this repository, so you can look at the existing information.
-
-Every project has two resource types:
+The project has two resource types:
 
 - *images* (`./images/xxxxx.jpg`): light pictures in square format. If possible 1x1 ratio for homogenous look and feel; the lighter the better (50Kb per image would be fine).
 - *database* (`./data.json`): JSON file with the app's configuration (name, colors, privacy texts, etc.) and the points of interest you want to show in the app. 
 
-You can download it in your computer, modify the texts, or add a new element based on your knowledge. You can upload it directly (better a Pull Request if you are familiar with GitHub), or [raise an issue](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new) to suggest the changes (please be explicit).
+You can download it in your computer, modify the texts, or add a new element based on your knowledge. You can upload it directly (better a Pull Request if you are familiar with GitHub), or [raise an issue](https://github.com/pbesteu/comic-book-route-quick-app/issues/new) to suggest the changes (please be explicit).
 
 Note that there is a moderation process, so it may take some hours. Please, leave a note with the suggestion, so the editor may validate and confirm your changes.
 
@@ -51,38 +50,9 @@ This JSON document contains two main parts, represented by the main keys of the 
 1. `meta`: metadata about the project
 2. `content`: multilingual content and setup of the application (based on localized information)
 
-#### Metadata of the project
-
-Example of a project named `fr/paris` for the City of Paris: 
-
-``` json
-{
-    "meta": {
-        "app_title": "Paris Street Heritage",
-        "version": 1,
-        "updated": "2022-03-26",
-        "source_url": "https://pbesteu.github.io/cultural-heritage-quick-app/fr/paris/data.json",
-        "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",                
-        "marketplace_url": "https://appgallery.huawei.com/app/FinalURL"
-    },
-    "content": {
-        "en": {},
-        "fr": {},
-        "es": {}
-    }    
-}
-```
-
-- `app_title` (`string`) The title to identify the application.
-- `version` (`integer`) The integer that represents the version of this document (this will be used by the app to find the latest version).
-- `updated` (`date`) The date when this document was updated. 
-- `source_url` (`URL`) The URI of this document on the Web.  
-- `matomo_base_url` (`URL`) The base URI for a Matomo analytics instance (empty if you don't want it).
-- `marketplace_url` (`URI`) The URI to the application if it is listed in a marketplace (e.g, URL to the AppGallery)
-
 #### Content of the project
 
-Continuing with the example of City of Paris, we can localize in any language, using the [ISO 639-1](https://www.loc.gov/standards/iso639-2/php/English_list.php) codes (assigning a two-letter code for the language). You can also specify the concrete region (using a `-` character and the concrete [ISO 3166-1](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) (Alpha-2 code). 
+We can localize the content in any language, using the [ISO 639-1](https://www.loc.gov/standards/iso639-2/php/English_list.php) codes (assigning a two-letter code for the language). You can also specify the concrete region (using a `-` character and the concrete [ISO 3166-1](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) (Alpha-2 code). 
 
 ``` json
 {
@@ -128,33 +98,25 @@ The content language tags are objects with the following structure:
                     "brand": "#B11623",             // Main color of the theme
                     "complementary": "#FAFAFA"      // Secondary color of the theme
                 },
-                "repository_url": "https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/fr/paris",
+                "repository_url": "https://github.com/pbesteu/comic-book-route-quick-app/tree/main/docs/fr/paris",
                 "text_info": "This project was created by...",
                 "text_acknowledge": "We would like to thanks...",
                 "text_feedback": "Please let us know if you want to contribute...",
                 "feedback_url": "https://pbesteu.github.io/cultural-heritage-quick-app/fr/paris/#contributors",
-                "issue_url": "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=fr/paris"
+                "issue_url": "https://github.com/pbesteu/comic-book-route-quick-app/issues/new?labels=fr/paris"
             },
             "pois": [
                 {
-                    "id": "eiffeltower",
-                    "lat": "48.865157817905896",
-                    "lon": "2.2938185078918156",
-                    "type": "tower",
-                    "name": "Eiffel Tower",
-                    "images": [
-                        "https://pbesteu.github.io/cultural-heritage-quick-app/fr/paris/images/eiffeltower_1.jpg",
-                        "https://pbesteu.github.io/cultural-heritage-quick-app/fr/paris/images/eiffeltower_2.jpg"
-                    ],
-                    "description": "The Tour Eiffel (French) is a iron lattice tower, named after the engineer Gustave Eiffel, whose company designed and built the tower",
-                    "more": "Locally nicknamed La dame de fer (French for Iron Lady), it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world",
-                    "attributions": [
-                        "John Smith", 
-                        "Jane Doe"
-                    ], 
-                    "urls": [
-                        "https://en.wikipedia.org/wiki/Eiffel_Tower"
-                    ]
+                     "id" : "Q863286",
+                     "name" : "Billy the Cat",
+                     "description" : "Comic book by Colman  and  Desberg in 2000",
+                     "lat" : 50.8534930829,
+                     "lon" : 4.34524297714,
+                     "images" : ["https://opendata.bruxelles.be/api/v2/catalog/datasets/comic-book-route/files/0c23baaead4ec7e0a9febe61e0633047"],
+                     "type" : "comic book",
+                     "urls" : [ "https://www.comics.org/series/9582/"],
+                     "freebase" : "/m/079ch0",
+                     "wikimedia" : "Q863286"
                 },
                 {
                     // Other PoI...
@@ -200,7 +162,7 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 
 By default, any user's feedback is handled through GitHub issues. In order to facilitate the moderation, issues will be classified using tags to indicate the project whose belong to. The title of the issues should contain the same name or identifier of the point of interest to avoid misunderstandings.   
 
-You also can create an issue template to have homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](../.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
+You also can create an issue template to have homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](https://github.com/pbesteu/comic-book-route-quick-app/blob/main/.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
 
 In the [app configuration](#app-configuration) we configure the template URL for the issues for the project. If you want to handle issues by language, you can specify different tags or templates according to your needs. 
 
@@ -209,7 +171,7 @@ For instance,
 ``` json
 {
     //...
-    "issue_url": "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=sample&template=update_request.md&title=Update+request+of+"
+    "issue_url": "https://github.com/pbesteu/comic-book-route-quick-app/issues/new?labels=sample&template=update_request.md&title=Update+request+of+"
     //...
 }
 ```
@@ -221,7 +183,7 @@ Note that the application will append the name of the point of interest at the e
 
 > Do you want to contribute to the code?
 
-Just fork the repository and start sending your contributions. The code of the quick app is in the [`/quick-app`](../quick-app) folder of the repository. 
+Just fork the repository and start sending your contributions. The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/comic-book-route-quick-app/blob/main/quick-app) folder of the repository. 
 
-Feel free to [raise issues](https://github.com/pbesteu/cultural-heritage-quick-app/issues/new) on the code.
+Feel free to [raise issues](https://github.com/pbesteu/comic-book-route-quick-app/issues/new) on the code.
 

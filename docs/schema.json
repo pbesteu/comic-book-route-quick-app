@@ -142,7 +142,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/cultural-heritage-quick-app/tree/main/docs/bxl/"
+                                        "https://github.com/pbesteu/comic-book-route-quick-app/tree/main/docs/bxl/"
                                     ]
                                 },
                                 "text_info": {
@@ -184,7 +184,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/cultural-heritage-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+                                        "https://github.com/pbesteu/comic-book-route-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
                                     ]
                                 }                                
                             }
