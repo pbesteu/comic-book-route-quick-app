@@ -44,7 +44,7 @@
     "permissionDesc": [
         {
             "name": "ACCESS_FINE_LOCATION",
-            "desc": "This app helps you find the monuments nearby. This is the reason it will use your location... nothing else. Please grant it."
+            "desc": "This app helps you find the artworks nearby. This is the reason it will use your location... nothing else. Please grant it."
         }
     ],
     "router": {
