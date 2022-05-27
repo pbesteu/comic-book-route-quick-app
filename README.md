@@ -4,7 +4,7 @@ This project is based on the [City of Brussels Open Data](https://opendata.bruss
 
 > It's free, open-source and collaborative.
 
-<img src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the application">
+<img width="250" src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the application">
 
 
 ## Privacy
