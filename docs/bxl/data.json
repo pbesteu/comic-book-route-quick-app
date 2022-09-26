@@ -1,11 +1,12 @@
 {
     "meta": {
+        "app_id": "es.espinr.comics",
         "app_title": "BXL Comic Book Route",
-        "version": 2,
-        "updated": "2022-05-27",
+        "version": 3,
+        "updated": "2022-09-26",
         "source_url": "https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
-        "marketplace_url": ""
+        "marketplace_url": "https://appgallery.huawei.com/app/C106421983"
     },
     "content": {
         "en": {
